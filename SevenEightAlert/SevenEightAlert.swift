@@ -14,6 +14,7 @@ public class SevenEightAlert : NSObject, UIAlertViewDelegate {
     
     // Declare a global var to produce a unique address as the assoc object handle
     private var assocObjectHandle: UInt8 = 0
+    // The current view controller we associate to
     private var assocViewController: UIViewController?
 
     public func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {

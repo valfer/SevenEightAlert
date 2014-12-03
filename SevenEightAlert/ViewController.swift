@@ -18,18 +18,12 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(animated : Bool) {
-
         super.viewDidAppear(animated)
-
         SevenEightAlert().show("Alert", message : "I'm an iOS7 and iOS8 alert", viewController : self, okAction: {
             
             ()->() in
-            
             println("alert dismissed")
-            
         })
-
-        
     }
 
 }

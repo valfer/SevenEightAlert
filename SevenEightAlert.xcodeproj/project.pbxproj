@@ -13,7 +13,7 @@
 		D93D5EE41A2F457900E1C409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93D5EE31A2F457900E1C409 /* Images.xcassets */; };
 		D93D5EE71A2F457900E1C409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93D5EE51A2F457900E1C409 /* LaunchScreen.xib */; };
 		D93D5EF31A2F457A00E1C409 /* SevenEightAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D5EF21A2F457A00E1C409 /* SevenEightAlertTests.swift */; };
-		D93D5EFF1A2F48AD00E1C409 /* VFAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D5EFE1A2F48AD00E1C409 /* VFAlert.swift */; };
+		D93D5F011A2F525F00E1C409 /* SevenEightAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D5F001A2F525F00E1C409 /* SevenEightAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		D93D5EEC1A2F457A00E1C409 /* SevenEightAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenEightAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93D5EF11A2F457A00E1C409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93D5EF21A2F457A00E1C409 /* SevenEightAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenEightAlertTests.swift; sourceTree = "<group>"; };
-		D93D5EFE1A2F48AD00E1C409 /* VFAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFAlert.swift; sourceTree = "<group>"; };
+		D93D5F001A2F525F00E1C409 /* SevenEightAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenEightAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				D93D5EDC1A2F457900E1C409 /* AppDelegate.swift */,
 				D93D5EDE1A2F457900E1C409 /* ViewController.swift */,
-				D93D5EFE1A2F48AD00E1C409 /* VFAlert.swift */,
+				D93D5F001A2F525F00E1C409 /* SevenEightAlert.swift */,
 				D93D5EE01A2F457900E1C409 /* Main.storyboard */,
 				D93D5EE31A2F457900E1C409 /* Images.xcassets */,
 				D93D5EE51A2F457900E1C409 /* LaunchScreen.xib */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93D5EDF1A2F457900E1C409 /* ViewController.swift in Sources */,
-				D93D5EFF1A2F48AD00E1C409 /* VFAlert.swift in Sources */,
+				D93D5F011A2F525F00E1C409 /* SevenEightAlert.swift in Sources */,
 				D93D5EDD1A2F457900E1C409 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +413,7 @@
 				D93D5EF81A2F457A00E1C409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D93D5EF91A2F457A00E1C409 /* Build configuration list for PBXNativeTarget "SevenEightAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				D93D5EFB1A2F457A00E1C409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

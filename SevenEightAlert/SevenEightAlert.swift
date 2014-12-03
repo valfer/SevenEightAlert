@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class VFAlert : NSObject, UIAlertViewDelegate {
+public class SevenEightAlert : NSObject, UIAlertViewDelegate {
 
     var okAction : (()->())?
     
